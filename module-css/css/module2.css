@@ -7,7 +7,7 @@ h1 {
 }
 
 section {
-	background-color: lightblue;
+	background-color: #e52165;
 	border: 1px solid black;
 	width: 90%;
 	height: 200px;
@@ -17,7 +17,8 @@ section {
 }
 
 h3 {
-	background-color: lightpink;
+	background-color: #0d1137;
+	color: #ffffff;
 	border: 2px solid black;
 	padding: 5px ;
 	width: 100px;
@@ -28,17 +29,25 @@ h3 {
 }
 
 @media (min-width: 992px) {
+	h3 {
+		background-color: #000000;
+	}
+
 	.col-lg-4 {
 		box-sizing: border-box;
-		background-color: red; 
+		background-color: #f3ca20; 
 		width: 32%;
 		float: left;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	h3 {
+		background-color: #1868ae;
+	}
+
 	.col-md-6 {
-		background-color: green;
+		background-color: #c6d7eb;
 		width: 45%;
 		float: left;
 	}
@@ -46,4 +55,6 @@ h3 {
 	section.diff {
 		width: 94%;
 	}
+
+
 }
