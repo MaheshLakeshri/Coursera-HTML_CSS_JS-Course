@@ -1,0 +1,85 @@
+/*
+#5D5C61
+#379683
+#7395AE
+*/	
+#header-nav {
+	background-color: #5D5C61;
+}
+.navbar-header {
+	background-color: #5D5C61;
+	padding: 10px;	
+}
+.navbar-brand h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #FFFFFF;
+  margin: 0;
+  position: relative;
+  top: 5px;
+  right: 50px;
+  position: absolute;
+  top: 15px;
+  left: 10%;
+}
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+.heading {
+	font-family: "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #C3073F;
+	color: #FFFFFF;
+	font-size: 1.3em;
+}
+.navbar-default .collapse .navbar-nav li {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+body {
+	background-color: #1A1A1D;
+	color: #FFFFFF;
+}
+section {
+	margin: 10px;
+	font-family: "Times New Roman", Times, serif;
+	border: 1px	solid #FFFFFF;
+	background-color: #C3073F;
+	position: relative;
+}
+section h3 {
+	text-align: center;
+}
+section p {
+	margin: 10px 10px 30px;
+	padding: 5px;
+	font-size: 16px;
+
+}
+a.top-link {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000000;
+	/*margin: 5px;*/
+	padding: 2px 4px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 1.3em;
+	border: 0.5px solid #FFFFFF;
+	background-color: #5D5C61;
+	text-decoration: none;
+}
+
+/*@media (min-width: 768px) and (max-width: 991px) {
+	section p {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	section p {
+		margin-bottom: 30px;
+	}
+}*/
